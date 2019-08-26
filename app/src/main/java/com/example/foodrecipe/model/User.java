@@ -10,12 +10,12 @@ public class User {
     @SerializedName("latlng")
     private String latlng;
     @SerializedName("name")
-    private static String name;
+    private  String name;
 
     public User(String email, String latlng, String name) {
         this.email = email;
         this.latlng = latlng;
-        User.name = name;
+        this.name = name;
     }
 
 
@@ -35,11 +35,11 @@ public class User {
         this.latlng = latlng;
     }
 
-    static String getname() {
+    public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        User.name = name;
+    public void setname(String name) {
+        this.name = name;
     }
 }
