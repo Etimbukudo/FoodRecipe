@@ -10,88 +10,61 @@
     android:paddingBottom="16dp"
     android:paddingTop="16dp"
     android:id="@+id/Login_page"
-    tools:context = ".HomeActivity">
+    tools:context = ".HomeActivity"
+    android:background="@drawable/bckg">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="137dp"
-        android:layout_height="117dp"
-        android:layout_above="@id/linearLayout"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="32dp"
-        android:padding="8dp"
-        android:src="@drawable/ic_room_service" />
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="137dp"-->
+        <!--android:layout_height="117dp"-->
+        <!--android:src="@drawable/ic_room_service"-->
+        <!--android:layout_centerHorizontal="true"/>-->
 
-    <ImageView
-        android:id="@+id/resturant"
-        android:layout_width="70dp"
-        android:layout_height="60dp"
-        android:layout_above="@id/linearLayout"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="-26dp"
-        android:layout_marginBottom="52dp"
-        android:layout_toEndOf="@id/imageView"
-        android:padding="8dp"
-        android:src="@drawable/ic_restaurant" />
 
-    <ImageView
-        android:layout_width="70dp"
-        android:layout_height="60dp"
-        android:layout_above="@id/linearLayout"
-        android:layout_marginEnd="-19dp"
-        android:layout_marginBottom="55dp"
-        android:layout_toStartOf="@id/imageView"
-        android:src="@drawable/ic_restaurant_menu" />
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp"
-        android:layout_centerInParent="true">
+        <!--<EditText-->
+            <!--android:id="@+id/editText_email"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Enter email"-->
+            <!--android:lines="1"-->
+            <!--android:maxLines="1"-->
+            <!--android:text="kubmite@gmail.com"-->
+            <!--android:textColor="@color/darkcyan"-->
+            <!--android:textColorHint="#931636"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_below="@id/imageView"-->
+            <!--android:layout_marginTop="6dp"/>-->
 
-        <EditText
-            android:id="@+id/editText_email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter email"
-            android:text="biggiedaddie@gbokocho.com"
-            android:textColor="@color/darkcyan"
-            android:lines="1"
-            android:maxLines="1"
-            android:textColorHint="#931636"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+        <!--<EditText-->
+            <!--android:id="@+id/editText_password"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Enter Password"-->
+            <!--android:inputType="numberPassword"-->
+            <!--android:lines="1"-->
+            <!--android:maxLines="1"-->
+            <!--android:text="1234"-->
+            <!--android:textColorHint="#931636"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_below="@id/editText_email"/>-->
 
-        <EditText
-            android:id="@+id/editText_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter Password"
-            android:text="1234"
-            android:lines="1"
-            android:maxLines="1"
-            android:inputType="numberPassword"
-            android:textColorHint="#931636"
-            android:textSize="20sp"
-            android:textStyle="bold" />
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <!--<Button-->
+            <!--android:id="@+id/button_login"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginTop="25dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:background="@drawable/buttons"-->
+            <!--android:text="LOGIN"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_below="@id/editText_password"/>-->
 
-            <Button
-                android:id="@+id/button_login"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#FFFFFF"
-                android:text="LOGIN"
-                android:textColor="#931636"
-                android:textStyle="bold" />
-
-        </androidx.cardview.widget.CardView>
-
-    </LinearLayout>
 
 </RelativeLayout>
